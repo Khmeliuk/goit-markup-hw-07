@@ -68,7 +68,7 @@ img {
   display: flex;
   align-items: center;
 }
-.head-container {
+.navigation {
   display: flex;
 }
 
@@ -82,14 +82,14 @@ img {
   text-decoration: none;
 }
 
-.logo .begin {
+.logo .logo__begin {
   color: var(--accent-color);
 }
 
-.logo .end {
+.logo .logo__end {
   color: var(--logo-black-color);
 }
-.secondary-end {
+.footer__end {
   color: var(--banner-color);
 }
 .nav-list {
