@@ -17,12 +17,12 @@
 }
 
 /* body */
-body {
+/* body {
   font-family: roboto, sans-serif;
   color: var(--main-color);
   background-color: var(--banner-color);
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -32,23 +32,23 @@ p,
 ul {
   padding: 0;
   margin: 0;
-}
-img {
+} */
+/* img {
   display: block;
-}
-.container {
+} */
+/* .container {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid blueviolet; */
+
   width: 1200px;
-}
+} */
 .section {
   padding: 94px 0;
 }
-.list {
+/* .list {
   list-style: none;
-}
+} */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,7 +61,7 @@ img {
 }
 
 /* header */
-.header {
+/* .header {
   border-bottom: 1px solid var(--border-solid);
 }
 .header-nav {
@@ -70,10 +70,10 @@ img {
 }
 .head-container {
   display: flex;
-}
+} */
 
 /* logo */
-.logo {
+/* .logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -91,8 +91,8 @@ img {
 }
 .logo--white {
   color: var(--banner-color);
-}
-.nav-list {
+} */
+/* .nav-list {
   display: flex;
 }
 .nav-list .nav-list__item + .nav-list__item {
@@ -160,7 +160,7 @@ img {
   display: inline-block;
   width: 12px;
   /* fill: var(--secondary-color) */
-}
+/* }
 .contact__mail-tell:hover,
 .contact__mail-tell:focus {
   color: var(--accent-color);
@@ -170,19 +170,19 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
-}
+}  */
 
-.header-container {
+/* .header-container {
   display: flex;
   margin: 0 auto;
   justify-content: end;
-}
+} */
 
 /* main */
 
 /* banner section */
 
-.banner-section {
+/* .banner-section {
   background-color: var(--secondary-bg-color);
   background: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
@@ -228,7 +228,7 @@ img {
   margin: auto;
   padding: 6px 32px;
   transition-property: background-color;
-  transition-duration: 25i80ms;
+  transition-duration: 25ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   border-radius: 4px;
@@ -245,11 +245,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-}
+} */
 
 /* features*/
 
-.features {
+/* .features {
   display: flex;
 }
 .features__item {
@@ -295,7 +295,7 @@ img {
   width: 70px;
   height: 70px;
   margin-left: 100px;
-}
+} */
 
 /* whot we do section */
 
@@ -305,8 +305,6 @@ img {
 .whotwedo-list {
   display: flex;
   flex-basis: calc((100% / 3) - 30px);
-}
-.we-do {
 }
 
 .whotwedo-list__img {
