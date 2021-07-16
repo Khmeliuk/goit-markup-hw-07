@@ -3,10 +3,11 @@
 }
 .features__item {
   flex-basis: calc((100% / 4) - 30px);
+  & + & {
+    margin-left: 30px;
+  }
 }
-.features .features__item + .features__item {
-  margin-left: 30px;
-}
+
 .features__title {
   font-weight: 700;
   font-size: 14px;
@@ -16,7 +17,7 @@
   margin-bottom: 10px;
 }
 .features__paragraph {
-  color: var(--secondary-color);
+  color: var($econdary-color);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -33,11 +34,12 @@
   background-color: var(--buttom-bg);
   width: 262px;
   height: 120px;
+  & + & {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
 }
-.featires-icon-list__item + .featires-icon-list__item {
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
+
 .featires-icon-list__icon {
   margin-top: 25px;
   margin-left: 0;
