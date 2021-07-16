@@ -10,8 +10,8 @@
 .filter-butom {
   cursor: pointer;
   font-family: inherit;
-  background-color: var($buttom-bg);
-  color: var($main-color);
+  background-color: var(--buttom-bg);
+  color: var(--main-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -27,8 +27,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &focus {
-    background-color: var($accent-color);
-    color: var($banner-color);
+    background-color: var(--accent-color);
+    color: var(--banner-color);
   }
 }
 
@@ -44,7 +44,7 @@
 }
 
 .spec__specilization {
-  color: var($secondary-color);
+  color: var(--secondary-color);
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;

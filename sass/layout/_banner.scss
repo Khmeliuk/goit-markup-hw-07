@@ -1,5 +1,5 @@
 .banner-section {
-  background-color: var($secondary-bg-color);
+  background-color: var(--secondary-bg-color);
   background: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -13,7 +13,7 @@
   margin: auto auto;
 }
 .banner-section {
-  color: var($banner-color);
+  color: var(--banner-color);
   font-weight: 900;
   padding-top: 200px;
   margin-bottom: 30px;
@@ -24,7 +24,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var($banner-color);
+  color: --banner-color;
   margin-bottom: 40px;
 }
 .banner-section__pad-but {

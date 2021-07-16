@@ -21,8 +21,8 @@
     margin-left: 30px;
   }
   &:hover > .clients__icon {
-    border: var($accent-color) solid 1px;
-    fill: var($accent-color);
+    border: --accent-color solid 1px;
+    fill: var(--accent-color);
     cursor: pointer;
   }
 }

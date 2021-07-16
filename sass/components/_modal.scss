@@ -10,11 +10,11 @@
 .modal {
   width: 528px;
   min-height: 581px;
-  background-color: var($banner-color);
+  background-color: var(--banner-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  border: 2px var($secondary-bg-color);
+  border: 2px var(--secondary-bg-color);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -51,14 +51,14 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var($main-color);
+  color: var(--main-color);
 }
 .modal__input-text {
   display: block;
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.01em;
-  color: var($secondary-color);
+  color: var(--secondary-color);
 }
 .modal__label-container {
   margin-left: 40px;
@@ -69,14 +69,14 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var($secondary-color);
-}
-& > a {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration: line;
-  color: var($accent-color);
+  color: var(--secondary-color);
+  & > a {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: line;
+    color: var(--accent-color);
+  }
 }
 
 .modal__input {
@@ -124,9 +124,9 @@
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__input:focus {
-  border: solid var($accent-color);
+  border: solid var(--accent-color);
   &:focus + .modal__icon {
-    fill: var($accent-color);
+    fill: var(--accent-color);
   }
 }
 
@@ -148,13 +148,13 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phantom-check {
-  fill: var($banner-color);
+  fill: var(--banner-color);
 }
 .phantome-input:checked + .modal__check-text span {
-  fill: var($accent-color);
+  fill: var(--accent-color);
   border: none;
-  background-color: var($hower-bg-buttom-color);
+  background-color: var(--hower-bg-buttom-color);
 }
 .model__comment:focus {
-  border-color: var($accent-color);
+  border-color: var(--accent-color);
 }
