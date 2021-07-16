@@ -1,6 +1,9 @@
-@import "./components/header";
+@import "./layout/header";
 @import "./base/reset";
 @import "./base/common";
-@import "./layout/header";
+@import "./layout/banner";
 @import "./components/logo";
+@import "./layout/features";
 @import "./components/container";
+@import "./layout/we-do";
+@import "./layout/our-team";
