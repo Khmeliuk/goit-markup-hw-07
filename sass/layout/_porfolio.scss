@@ -1,3 +1,4 @@
+@import "../utils/variables";
 .filter-nav {
   display: flex;
   justify-content: center;
@@ -10,8 +11,8 @@
 .filter-butom {
   cursor: pointer;
   font-family: inherit;
-  background-color: var(--buttom-bg);
-  color: var(--main-color);
+  background-color: $buttom-bg;
+  color: $main-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -27,8 +28,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &focus {
-    background-color: var(--accent-color);
-    color: var(--banner-color);
+    background-color: $accent-color;
+    color: $banner-color;
   }
 }
 
@@ -44,14 +45,14 @@
 }
 
 .spec__specilization {
-  color: var(--secondary-color);
+  color: $secondary-color;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
   padding-left: 24px;
 }
 .spec__cards {
-  outline: 1px solid var(--border-solid-secondary);
+  outline: 1px solid $border-solid-secondary;
 }
 .spec {
   display: flex;
@@ -72,7 +73,7 @@
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  color: var(--banner-color);
+  color: $banner-color;
   background: rgba(33, 150, 243, 0.9);
   position: absolute;
   padding: 63px 24px;

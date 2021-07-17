@@ -1,5 +1,6 @@
+@import "../utils/variables";
 .header {
-  border-bottom: 1px solid var(--border-solid);
+  border-bottom: 1px solid $border-solid;
 }
 .header-nav {
   display: flex;
@@ -19,7 +20,7 @@
   margin-left: 50px;
 }
 .nav-list__link {
-  color: var(--main-color);
+  color: $main-color;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -32,16 +33,16 @@
   padding: 32px 0px 0px 0px;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .current::after {
   display: flex;
-  border-bottom: 4px solid var(--accent-color);
+  border-bottom: 4px solid $accent-color;
   content: "";
   margin-top: 28px;
-  color: var(--accent-color);
+  color: $accent-color;
   padding: 0;
   width: 100%;
   border-radius: 2px;
@@ -53,16 +54,16 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--secondary-color);
+  color: $secondary-color;
   margin-left: auto;
   display: flex;
-  fill: var(--secondary-color);
+  fill: $secondary-color;
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   & :hover .service-icon {
-    fill: var(--accent-color);
-    color: var(--accent-color);
+    fill: $accent-color;
+    color: $accent-color;
   }
 }
 .container .contact__mail-tell + .contact__mail-tell {
@@ -78,8 +79,8 @@
 }
 .contact__mail-tell:hover,
 .contact__mail-tell:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+  color: $accent-color;
+  fill: $accent-color;
 }
 .contact {
   display: flex;
