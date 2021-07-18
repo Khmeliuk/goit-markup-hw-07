@@ -1,6 +1,6 @@
 .ourtaem-section {
   background-color: $our-team-bg;
-  & .__title {
+  &__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -13,13 +13,13 @@
 .our-team-list {
   display: flex;
   flex-basis: calc((100% / 4)-30px);
-  & .__item {
+  &__item {
     background-color: $banner-color;
     & + & {
       margin-left: 30px;
     }
   }
-  & .__paragraph {
+  &__paragraph {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -33,13 +33,13 @@
     align-items: center;
 
     border-radius: 50%;
-    & .__social {
+    .our-team-list__social {
       fill: $icon-color;
       height: 44px;
       width: 44px;
     }
   }
-  & .__social {
+  &__social {
     display: flex;
     align-content: center;
     justify-content: center;
