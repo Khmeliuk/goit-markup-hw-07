@@ -2,16 +2,16 @@
 .clients {
   display: flex;
   justify-content: center;
-  .__company {
+  &__company {
     margin-left: 30px;
 
-    &:hover > .__icon {
+    &:hover > .clients__icon {
       border: $accent-color solid 1px;
       fill: $accent-color;
       cursor: pointer;
     }
   }
-  & .__icon {
+  &__icon {
     border: 1px solid #afb1b8;
     border-radius: 4px;
     display: block;

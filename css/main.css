@@ -144,7 +144,7 @@ body {
   margin-bottom: 30px;
 }
 
-.banner-section .__title {
+.banner-section__title {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -191,15 +191,15 @@ body {
   display: flex;
 }
 
-.features .__item-featires {
+.features__item-featires {
   flex-basis: calc((100% / 4) - 30px);
 }
 
-.features .__item-featires .__item:not(:first-child) {
+.features__item-featires .__item:not(:first-child) {
   margin-left: 60px;
 }
 
-.features .__paragraph {
+.features__paragraph {
   color: #757575;
   font-weight: normal;
   font-size: 14px;
@@ -207,7 +207,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.features .__title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -216,7 +216,7 @@ body {
   margin-bottom: 10px;
 }
 
-.features .__item-featires:not(:first-child) {
+.features__item-featires:not(:first-child) {
   margin-left: 30px;
 }
 
@@ -226,18 +226,18 @@ body {
   flex-basis: calc((100% / 4)-30);
 }
 
-.featires-icon-list .__list-item-icon {
+.featires-icon-list__list-item-icon {
   background-color: #f5f4fa;
   width: 262px;
   height: 120px;
 }
 
-.featires-icon-list .__list-item-icon + .featires-icon-list .__list-item-icon {
+.featires-icon-list__list-item-icon + .featires-icon-list__list-item-icon {
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-.featires-icon-list ._list-icon-icon {
+.featires-icon-list__list-icon-icon {
   margin-top: 25px;
   margin-left: 0;
   width: 70px;
@@ -245,7 +245,7 @@ body {
   margin-left: 100px;
 }
 
-.featires-icon-list .__list-item-icon + .__list-item-icon {
+.featires-icon-list__list-item-icon + .featires-icon-list__list-item-icon {
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -393,17 +393,17 @@ body {
   justify-content: center;
 }
 
-.clients .__company {
+.clients__company {
   margin-left: 30px;
 }
 
-.clients .__company:hover > .__icon {
+.clients__company:hover > .clients__icon {
   border: #2196f3 solid 1px;
   fill: #2196f3;
   cursor: pointer;
 }
 
-.clients .__icon {
+.clients__icon {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   display: block;
