@@ -12,24 +12,24 @@
   background-size: cover;
   max-width: 1600px;
   margin: auto auto;
-}
-.banner-section {
-  color: $banner-color;
-  font-weight: 900;
-  padding-top: 200px;
-  margin-bottom: 30px;
-}
-.banner-section__title {
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: $banner-color;
-  margin-bottom: 40px;
-}
-.banner-section__pad-but {
-  padding-bottom: 200px;
+  & {
+    color: $banner-color;
+    font-weight: 900;
+    padding-top: 200px;
+    margin-bottom: 30px;
+  }
+  .__title {
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $banner-color;
+    margin-bottom: 40px;
+  }
+  &__pad-but {
+    padding-bottom: 200px;
+  }
 }
 
 .section__title {

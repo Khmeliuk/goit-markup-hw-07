@@ -2,28 +2,23 @@
 .clients {
   display: flex;
   justify-content: center;
-}
-
-.client-logo + .client-logo {
-  margin-right: 30px;
-}
-.clients__icon {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  display: block;
-  padding: 16px 32px;
-  fill: #afb1b8;
-  transition-property: border, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients__company {
-  & + & {
+  .__company {
     margin-left: 30px;
+
+    &:hover > .__icon {
+      border: $accent-color solid 1px;
+      fill: $accent-color;
+      cursor: pointer;
+    }
   }
-  &:hover > .clients__icon {
-    border: $accent-color solid 1px;
-    fill: $accent-color;
-    cursor: pointer;
+  & .__icon {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: block;
+    padding: 16px 32px;
+    fill: #afb1b8;
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
